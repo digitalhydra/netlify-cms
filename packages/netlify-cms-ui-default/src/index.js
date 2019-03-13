@@ -17,4 +17,5 @@ export {
   borders,
   transitions,
   reactSelectStyles,
+  GlobalStyles,
 } from './styles';

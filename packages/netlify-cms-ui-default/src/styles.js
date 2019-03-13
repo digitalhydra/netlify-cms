@@ -1,18 +1,5 @@
-import { css, Global } from '@emotion/core'
-
-export {
-  fonts,
-  colorsRaw,
-  colors,
-  lengths,
-  components,
-  buttons,
-  shadows,
-  borders,
-  transitions,
-  reactSelectStyles,
-  GlobalStyles,
-};
+import React from 'react';
+import { css, Global } from '@emotion/core';
 
 /**
  * Font Stacks
@@ -426,3 +413,17 @@ const GlobalStyles = () => (
     `}
   />
 );
+
+export {
+  fonts,
+  colorsRaw,
+  colors,
+  lengths,
+  components,
+  buttons,
+  shadows,
+  borders,
+  transitions,
+  reactSelectStyles,
+  GlobalStyles,
+};
