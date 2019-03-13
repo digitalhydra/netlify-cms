@@ -342,7 +342,9 @@ const reactSelectStyles = {
 const GlobalStyles = () => (
   <Global
     styles={css`
-      *, *:before, *:after {
+      *,
+      *:before,
+      *:after {
         box-sizing: border-box;
       }
 
@@ -353,10 +355,9 @@ const GlobalStyles = () => (
       /**
        * Don't show outlines if the user is utilizing mouse rather than keyboard.
        */
-      [data-whatintent="mouse"] *:focus {
+      [data-whatintent='mouse'] *:focus {
         outline: none;
       }
-
 
       input {
         border: 0;
@@ -370,11 +371,18 @@ const GlobalStyles = () => (
         margin: 0;
       }
 
-      ul, ol {
+      ul,
+      ol {
         padding-left: 0;
       }
 
-      h1, h2, h3, h4, h5, h6, p {
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6,
+      p {
         font-family: ${fonts.primary};
         color: ${colors.textLead};
         font-size: 15px;
@@ -382,7 +390,12 @@ const GlobalStyles = () => (
         margin-top: 0;
       }
 
-      h1, h2, h3, h4, h5, h6 {
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6 {
         font-weight: 500;
       }
 
