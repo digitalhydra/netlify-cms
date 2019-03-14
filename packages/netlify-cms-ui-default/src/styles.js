@@ -87,6 +87,7 @@ const lengths = {
   borderWidth: '2px',
   topCardWidth: '682px',
   pageMargin: '28px 18px',
+  objectWidgetTopBarContainerPadding: '0 14px 14px',
 };
 
 const borders = {
@@ -263,7 +264,7 @@ const components = {
     margin-top: 8px;
   `,
   objectWidgetTopBarContainer: css`
-    padding: 0 14px 14px;
+    padding: ${lengths.objectWidgetTopBarContainerPadding};
   `,
   dropdownList: css`
     ${shadows.dropDeep};
